@@ -1,0 +1,28 @@
+{
+  "include": [
+    "**/*.py",
+    "**/*.ipynb"
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/node_modules",
+    "**/.venv",
+    "**/venv"
+  ],
+  "reportMissingImports": "warning",
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.13",
+  "pythonPlatform": "Darwin",
+  "typeCheckingMode": "basic",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "pythonVersion": "3.13",
+      "pythonPlatform": "Darwin",
+      "extraPaths": [
+        "/opt/anaconda3/envs/text-sim/lib/python3.13/site-packages"
+      ]
+    }
+  ]
+}
+
